@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Passions+Conflict&family=Prompt:ital,wght@1,300&display=swap');
 
 body {
-    margin: 10;
-    padding-top: 800px;
+   
+
     text-align: center;
 }
 
@@ -13,7 +13,7 @@ body {
 }
 
 #welcome {
-    position: absolute;
+    
     bottom: 0;
     background: linear-gradient(#60ebeb 0%, #27ae60 100%);
     display: table;
@@ -95,3 +95,8 @@ text-decoration: underline;
     background-color: rgb(252, 223, 97);
 }
 
+.navbar{
+    position:sticky;
+    top:0;
+    z-index:999 ;
+}
